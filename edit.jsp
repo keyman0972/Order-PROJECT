@@ -104,7 +104,7 @@ function getItemName(){
 					$("#hidden_itemBookQty_"+ index).val(rtn_data.results[0][5]);
 					
 				}else{
-					$("#itemName_" + index).html("");
+					$("#itemName_" + index).html("<s:text name="eC.0037"/>");
 					$("#itemPrice_" + index).html("");
 					$("#itemPromoPrice_" + index).html("");
 				}
